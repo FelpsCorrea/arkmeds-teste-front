@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.center{
+    max-width: 960;
+    margin: 0, auto;
+    padding: 0, 2%;
+    display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main{
+    padding: 40px, 0;
+    background-image: url("https://www.ufpb.br/lat/contents/imagens/noticias/engenharia-clinica.jpg/@@images/image.jpeg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 300px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.footer{
+    padding: 40px, 0;
+    margin-top: 50px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 300px;
+    background-color: black;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
 }
 
-.App-link {
-  color: #61dafb;
+.sobre{
+    margin-top: 40px;
+    width: 50%;
+    padding: 8px 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sobre2{
+    width: 50%;
+    margin-top: 65px;
+    padding: 8px 30px;
+}
+
+.card {
+    margin-top: 40px;
+    width: 90%;
+    padding: 8px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.tabela{
+    margin-top: 40px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo{
+    font-size: 20px;
 }
